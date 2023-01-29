@@ -17,7 +17,7 @@ const HeaderSearchBox: React.FC = () => {
     return (
         <Flex flexGrow={1} mx={6}>
             {/* <form onSubmit={handleSubmit} style={{ display: 'block' }}> */}
-            <InputGroup>
+            <InputGroup maxWidth={{ base: 'unset', md: '300px' }}>
                 <InputLeftElement
                     pointerEvents='none'
                 ><SearchIcon color='gray.300' mb={1} /></InputLeftElement>
